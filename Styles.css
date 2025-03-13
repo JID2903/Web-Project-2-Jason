@@ -33,3 +33,8 @@ figure {
 span {
     color: white;
 }
+#TheSecondone {
+    float: right;
+    width: 600px;
+    height: 600px;
+}
