@@ -24,3 +24,12 @@ ul {
     overflow: hidden;
     background-color: skyblue;
 }
+figure {
+    text-align: right;
+    width: 600px;
+    height: 600px;
+    margin: 0;
+}
+span {
+    color: white;
+}
