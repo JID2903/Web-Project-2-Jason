@@ -1,56 +1,75 @@
+/* Styles for the navigation bar */
 .navbar {
-    border: 2px solid rgb(242, 84, 84);
-    border-radius: 5px;
-    padding: 5px 10px;
-    background-color: skyblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    border: 2px solid rgb(242, 84, 84); /* Red border around the navbar */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Padding inside the navbar */
+    background-color: skyblue; /* Light blue background */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Font style */
+    font-size: 20px; /* Font size */
 }
+
+/* Styles for the main heading (h1) */
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    color: rgb(84, 242, 242);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Font style */
+    font-size: 30px; /* Font size */
+    color: rgb(84, 242, 242); /* Cyan text color */
 }
+
+/* Styles for the body of the page */
 body {
-    background-color: rgb(84, 92, 242);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    color: rgb(230, 51, 51);
+    background-color: rgb(84, 92, 242); /* Blue background color */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Font style */
+    font-size: 20px; /* Font size */
+    color: rgb(255, 255, 255); /* White text color */
 }
+
+/* Styles for unordered lists */
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: skyblue;
+    list-style-type: none; /* Removes bullet points */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    overflow: hidden; /* Ensures content doesn't overflow */
+    background-color: skyblue; /* Light blue background */
 }
+
+/* Styles for figure elements */
 figure {
-    text-align: right;
-    width: 300px;
-    height: 300px;
-    margin: 0;
+    text-align: right; /* Aligns content to the right */
+    width: 300px; /* Fixed width */
+    height: 300px; /* Fixed height */
+    margin: 0; /* Removes default margin */
 }
+
+/* Styles for span elements */
 span {
-    color: white;
+    color: rgb(241, 15, 15); /* Red text color */
 }
+
+/* Styles for the element with ID "TheSecondone" */
 #TheSecondone {
-    float: right;
-    width: 600px;
-    height: 600px;
+    float: right; /* Aligns the element to the right */
+    width: 600px; /* Fixed width */
+    height: 600px; /* Fixed height */
 }
+
+/* Styles for iframe elements */
 iframe {
-    float: left;
+    float: left; /* Aligns the iframe to the left */
 }
+
+/* Styles for the footer */
 footer {
-    background-color: skyblue;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    background-color: skyblue; /* Light blue background */
+    color: rgb(255, 255, 255); /* White text color */
+    text-align: center; /* Centers the text */
+    padding: 10px; /* Padding inside the footer */
+    position: fixed; /* Fixes the footer at the bottom of the page */
+    left: 0; /* Aligns the footer to the left edge */
+    bottom: 0; /* Aligns the footer to the bottom edge */
+    width: 100%; /* Makes the footer span the full width of the page */
 }
+
+/* Styles for figcaption elements */
 figcaption {
-    color: rgb(248, 4, 4);
+    color: rgb(248, 4, 4); /* Bright red text color */
 }
